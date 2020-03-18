@@ -48,4 +48,4 @@ steps:
     azureSubscription: AzureRM
     appType: webApp
     appName: MyAspNetCoreExample
-    package: $(System.ArtifactsDirectory)/**/*.zip 
+    package: $(System.ArtifactsDirectory)/**/*.zip
