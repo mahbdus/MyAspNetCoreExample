@@ -40,5 +40,5 @@ steps:
 
 - task: PublishBuildArtifacts@1
   inputs:
-    pathToPublish: $(Build.ArtifactStagingDirectry)
+    pathToPublish: $(Build.ArtifactStagingDirectory)
     artifactName: MyAspNetCoreExample
