@@ -45,7 +45,7 @@ steps:
 
 - task: AzureWebApp@1
   inputs:
-    azureSubscription: github.com_mahbdus
+    azureSubscription: AzureRM
     appType: webApp
     appName: MyAspNetCoreExample
     package: $(System.ArtifactsDirectory)/**/*.zip 
