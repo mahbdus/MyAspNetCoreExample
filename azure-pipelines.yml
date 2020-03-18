@@ -45,7 +45,7 @@ steps:
 
 - task: AzureWebApp@1
   inputs:
-    azureSubscription: 'Free'
+    azureSubscription: 'Free Trial'
     appType: webApp
     appName: 'MyAspNetCoreExample'
     package: $(System.ArtifactsDirectory)/**/*.zip
