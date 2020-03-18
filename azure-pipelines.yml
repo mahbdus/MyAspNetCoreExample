@@ -40,8 +40,15 @@ steps:
 
 - task: PublishBuildArtifacts@1
   inputs:
-    pathToPublish: $(Build.ArtifactStagingDirectory)
+    pathToPublish: $(Build.ArtifactStagingDirectry)
     artifactName: AspNetCoreExample
 
-    
+- task: AzureWebApp@1
+  inputs:
+    azureSubscription: 'Free'
+    appType: webApp
+    appName: 'MyAspNetCoreExample'
+    package: $(System.ArtifactsDirectory)/**/*.zip
+
+
 
