@@ -45,7 +45,7 @@ steps:
 
 - task: AzureWebApp@1
   inputs:
-    azureSubscription: 77eab3d9-64e2-4a4a-9045-9ebe4176639a
+    azureSubscription: '77eab3d9-64e2-4a4a-9045-9ebe4176639a'
     appType: webApp
     appName: 'MyAspNetCoreExample'
     package: $(System.ArtifactsDirectory)/**/*.zip 
