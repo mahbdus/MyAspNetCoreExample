@@ -33,3 +33,4 @@ C:\AzureDevOps\MyAspNetCoreExample\obj\Debug\netcoreapp3.1\staticwebassets\MyAsp
 C:\AzureDevOps\MyAspNetCoreExample\obj\Debug\netcoreapp3.1\MyAspNetCoreExample.dll
 C:\AzureDevOps\MyAspNetCoreExample\obj\Debug\netcoreapp3.1\MyAspNetCoreExample.pdb
 C:\AzureDevOps\MyAspNetCoreExample\obj\Debug\netcoreapp3.1\MyAspNetCoreExample.csproj.CopyComplete
+C:\AzureDevOps\MyAspNetCoreExample\obj\Debug\netcoreapp3.1\MyAspNetCoreExample.genruntimeconfig.cache
